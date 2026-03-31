@@ -1,0 +1,75 @@
+package com.lolzteam.generated.market.models;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+/**
+ * Response model <code>Usermodel</code>.
+ *
+ * <p>Auto-generated from OpenAPI schema. All fields are nullable.</p>
+ */
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record Usermodel(
+    @JsonProperty("active_items_count") Long activeItemsCount,
+    @JsonProperty("activity_visible") Boolean activityVisible,
+    @JsonProperty("age") Long age,
+    @JsonProperty("balance") String balance,
+    @JsonProperty("balances") java.util.List<java.util.Map<String, Object>> balances,
+    @JsonProperty("bump_item_period") Long bumpItemPeriod,
+    @JsonProperty("can_edit") Boolean canEdit,
+    @JsonProperty("can_follow") Boolean canFollow,
+    @JsonProperty("can_ignore") Boolean canIgnore,
+    @JsonProperty("can_post_profile") Boolean canPostProfile,
+    @JsonProperty("can_view_profile") Boolean canViewProfile,
+    @JsonProperty("can_view_profile_posts") Boolean canViewProfilePosts,
+    @JsonProperty("can_warn") Boolean canWarn,
+    @JsonProperty("contest_count") Long contestCount,
+    @JsonProperty("conv_welcome_message") String convWelcomeMessage,
+    @JsonProperty("convertedBalance") Long convertedbalance,
+    @JsonProperty("convertedDeposit") Long converteddeposit,
+    @JsonProperty("convertedHold") Long convertedhold,
+    @JsonProperty("currency") String currency,
+    @JsonProperty("currencyPhrase") String currencyphrase,
+    @JsonProperty("custom_account_download_format") String customAccountDownloadFormat,
+    @JsonProperty("custom_fields") java.util.Map<String, Object> customFields,
+    @JsonProperty("custom_title") String customTitle,
+    @JsonProperty("deposit") Long deposit,
+    @JsonProperty("dob") java.util.Map<String, Object> dob,
+    @JsonProperty("feedback_data") Object feedbackData,
+    @JsonProperty("hold") String hold,
+    @JsonProperty("homepage") String homepage,
+    @JsonProperty("imap_data") Object imapData,
+    @JsonProperty("is_admin") Boolean isAdmin,
+    @JsonProperty("is_banned") Boolean isBanned,
+    @JsonProperty("is_followed") Boolean isFollowed,
+    @JsonProperty("is_ignored") Boolean isIgnored,
+    @JsonProperty("is_moderator") Boolean isModerator,
+    @JsonProperty("is_staff") Boolean isStaff,
+    @JsonProperty("is_super_admin") Boolean isSuperAdmin,
+    @JsonProperty("joined_date") Long joinedDate,
+    @JsonProperty("last_activity") Long lastActivity,
+    @JsonProperty("like2_count") Long like2Count,
+    @JsonProperty("like_count") Long likeCount,
+    @JsonProperty("location") String location,
+    @JsonProperty("market_custom_title") String marketCustomTitle,
+    @JsonProperty("max_discount_percent") Long maxDiscountPercent,
+    @JsonProperty("message_count") Long messageCount,
+    @JsonProperty("paid_mail_left") Long paidMailLeft,
+    @JsonProperty("public_tags") java.util.List<java.util.Map<String, Object>> publicTags,
+    @JsonProperty("register_date") Long registerDate,
+    @JsonProperty("rendered") java.util.Map<String, Object> rendered,
+    @JsonProperty("restore_count") Long restoreCount,
+    @JsonProperty("restore_data") Object restoreData,
+    @JsonProperty("short_link") String shortLink,
+    @JsonProperty("sold_items_count") Long soldItemsCount,
+    @JsonProperty("tags") Object tags,
+    @JsonProperty("telegram_client") Object telegramClient,
+    @JsonProperty("trophy_points") Long trophyPoints,
+    @JsonProperty("user_allow_ask_discount") Boolean userAllowAskDiscount,
+    @JsonProperty("user_id") Long userId,
+    @JsonProperty("user_title") String userTitle,
+    @JsonProperty("username") String username,
+    @JsonProperty("view_url") String viewUrl,
+    @JsonProperty("visible") Boolean visible,
+    @JsonProperty("warning_points") Long warningPoints
+) {}
